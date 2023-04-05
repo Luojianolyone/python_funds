@@ -8,7 +8,7 @@ import pandas as pd
 
 if __name__ == '__main__':
     # 建立连接
-    engine = sqlalchemy.create_engine("mysql+pymysql://root:luo3306.J@localhost:3306/fund")
+    engine = sqlalchemy.create_engine("mysql+pymysql://sqlname:password@localhost:3306/fund")
 
 
     url = 'http://fund.eastmoney.com/js/fundcode_search.js'
